@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './styles';
+import style from './style';
 
 import {
   PropsInterface,
@@ -59,7 +59,7 @@ export default class CheckTree extends React.Component<
   render() {
     return (
       <React.Fragment>
-        <ul style={styles.lv1}>
+        <ul style={style.lv1}>
           { this.props.dataSource.map((item, itemIndex) => { 
             return (
               <li>
@@ -72,7 +72,7 @@ export default class CheckTree extends React.Component<
 
                 { item.childern && item.childern.map((item, itemIndex) => { 
                   return (
-                    <ul style={styles.lv2}>
+                    <ul style={style.lv2}>
                       <li>
                         <input 
                           type="checkbox" 
