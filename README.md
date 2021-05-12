@@ -1,4 +1,4 @@
-# react-ts-e36eia
+# Check Tree
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-e36eia)
 
